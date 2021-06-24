@@ -1,38 +1,9 @@
 * {
     margin: 0;
-    padding: 50px 60px;
+    padding: 0;
     box-sizing: border-box;
-}
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0 10%;
-    border: 2px solid  black;
-}
-h1{
-   font-family: 'Times New Roman', Times, serif;
-   text-align: center;
-   border: 2px solid  black;
-}
-h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 2px solid black;
-    text-align: center;
-}
-h3{
 
-}
-p{
-    display:inline-block
-}
-hr{
-    padding: 1px;
-    border: 1px solid black;
-    margin: 20px;
-}
-
-
-
-/*classes*/
+/*classes colors*/
 .pallate-container{
     margin:20px auto 0 auto;
     border: 2px solid  black;
@@ -53,17 +24,37 @@ hr{
 }
 .pallate-1{
     text-align: center;
-    position:relative;
-    margin :
+    margin: 0 0;
+    padding: 0 -23px;
+    display: inline-block;
 }
+.pallate-2{
+    text-align: center;
+    margin: 0 0;
+    padding: 0 -23px;
+    display: inline-block;
 
+}
+.pallate-3{
+    text-align: center;
+    margin: 0 0;
+    padding: 0 -23px;
+    display: inline-block;
 
-/*id's*/
+}
+.pallate-4{
+    text-align: center;
+    margin: 0 0;
+    padding: 0 -23px;
+    display: inline-block;
+}
 
 
 /*colors*/
 #color1{
     background-color: #E59F57;
+    top: 40px;
+    right: 100px;
 }
 #color2{
     background-color: #98DA7A;
@@ -75,5 +66,50 @@ hr{
     background-color:#83100D ;
 }
 #color5{
-    background-color: #9E0801;
+    background-color:#9E0801 ;
 }
+#color6{
+    background-color: #EEE37A;
+}
+#color7{
+    background-color: #E2B2A4;
+}
+#color8{
+    background-color: #D795B2;
+}
+#color9{
+    background-color:#CB688B ;
+}
+#color10{
+    background-color:#6E739D ;
+}
+#color11{
+    background-color: #231D29;
+}
+#color12{
+    background-color: #48404B;
+}
+#color13{
+    background-color: #574994;
+}
+#color14{
+    background-color:#2E3772 ;
+}
+#color15{
+    background-color:#86ACEA ;
+}
+#color16{
+    background-color: #D7EC37;
+}#color17{
+    background-color: #B0B559;
+}
+#color18{
+    background-color: #828B22;
+}
+#color19{
+    background-color:#626E18 ;
+}
+#color20{
+    background-color:#554E22 ;
+}
+
