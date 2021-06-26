@@ -3,39 +3,82 @@
     padding: 0;
 }
 body{
-    width: 1920px;
-    background-color: black;
+    width: 1280px;
     margin: 10%;
+    z-index: -1;
+    background-color: #231D29;
 }
 section{
     background-color: white;
+
 }
 h1{
-    font-size: 80px;
-    color: white;
+    font-size: 40px;
+    color: black;
     text-align: center;
 }
+h2{
+    margin: 20px;
+    font: size  30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin: 15px 15px 15px 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    margin: 20px auto;
+    
+}
+td{
+    border: white solid 20px;
+    background-color: rgba(229, 210, 255, 0.178);
+    padding: 50px;
 
+}
+#title{
+    color: black;
+    font-size: 50px;
+    background-color: white;
+    width: fit-content;
+    padding: 30px;
+}
+hr{
+    border: white 5px solid;
+    z-index: 0;
+}
+#section-heading{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: hsla(147, 50%, 30% , 50);
+    width: fit-content;
+    padding: 0  20px;
+}
+p{
+    font-weight: 100;
+    font-size: 12px;
+    font-family: "Kaushan Script";
+}
 
 /*classes colors*/
 .pallate-1{
     display: inline-block;
-    border: 1px solid #466995;
+    margin-top: 0 auto 0 auto;
 }
 .pallate-2{
     display: inline-block;
-    border: 1px solid #466995;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 30px auto;
 }
 .pallate-3{
     display: inline-block;
-    border: 1px solid #466995;
     margin: 0 auto 0 auto;
 }
 .pallate-4{
     display: inline-block;
-    border: 1px solid #466995;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 30px auto;
 }
 .color{
     text-align: center;
